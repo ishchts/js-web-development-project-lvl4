@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Task Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="task manager">
+    <meta name="author" content="Ilya Shchutskiy">
+    <link href="/dist/main.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <a
+                    href="/"
+                    class="navbar-brand text-dark text-decoration-none"
+                >
+                    Менеджер задач
+                </a>
+                <a href="/users" class="nav-link text-dark text-decoration-none">
+                    Пользователи
+                </a>
+            </div>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="/session/new" class="nav-link active" aria-current="page">Вход</a></li>
+                <li class="nav-item"><a href="/users/new" class="nav-link">Регистрация</a></li>
+            </ul>
+        </header>
+    </div>
+    {{{body}}}
+    <script src="/dist/main.js"></script>
+</body>
+</html>
