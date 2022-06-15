@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/ishchts/js-web-development-project-lvl4/workflows/hexlet-check/badge.svg)](https://github.com/ishchts/js-web-development-project-lvl4/actions)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishchts/js-web-development-project-lvl4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishchts/js-web-development-project-lvl4/issues"
+  },
+  "homepage": "https://github.com/ishchts/js-web-development-project-lvl4#readme",
+  "dependencies": {
+    "express": "4.18.1"
+  }
+}
